@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  emailace-ai:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DATABASE_URL=sqlite:///./data/emailace.db
+      - GMAIL_USERNAME=${GMAIL_USERNAME}
+      - GMAIL_PASSWORD=${GMAIL_PASSWORD}
+      - REPLY_EMAIL=${REPLY_EMAIL}
+      - SECRET_KEY=${SECRET_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl:/etc/nginx/ssl
+    depends_on:
+      - emailace-ai
+    restart: unless-stopped
+
+volumes:
+  data:
+  logs:
+
+
