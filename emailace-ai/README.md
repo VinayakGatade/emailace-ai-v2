@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# EmailAce AI - Video Submission
 
-## Project info
+## 🎬 Demo Video
 
-**URL**: https://lovable.dev/projects/ee1294a4-873f-4867-8e4a-a76266388c0f
+**Video Link:** https://drive.google.com/file/d/10Rz7zh6dnx8kpsNYb8IHKp7WFa39cmrL/view?usp=sharing
 
-## How can I edit this code?
+## 📋 Project Overview
 
-There are several ways of editing your application.
+EmailAce AI is an AI-powered communication assistant that intelligently manages emails end-to-end, reducing manual effort and improving response quality.
 
-**Use Lovable**
+### Key Features:
+- Real-time email processing and analytics
+- AI-powered response generation using RAG
+- Priority queue for urgent email handling
+- Sentiment analysis and entity extraction
+- Comprehensive dashboard and insights
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ee1294a4-873f-4867-8e4a-a76266388c0f) and start prompting.
+### Technical Stack:
+- Frontend: React + TypeScript
+- Backend: FastAPI + Python
+- AI/ML: Hugging Face models with RAG implementation
+- Database: SQLite with priority queue management
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Quick Start
 
-**Use your preferred IDE**
+1. **Backend Setup:**
+   ```bash
+   cd emailace-ai/backend
+   pip install -r requirements.txt
+   python run.py
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. **Frontend Setup:**
+   ```bash
+   cd emailace-ai
+   npm install
+   npm run dev
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. **Access the application:**
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:8000
+   - API Documentation: http://localhost:8000/docs
 
-Follow these steps:
+## 📁 Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+emailace-ai/
+├── backend/           # FastAPI backend
+├── src/              # React frontend
+├── public/           # Static assets
+├── README.md         # Detailed documentation
+└── requirements.txt  # Python dependencies
 ```
 
-**Edit a file directly in GitHub**
+## 🎯 Demo Highlights
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The video demonstrates:
+- Real-time dashboard with live analytics
+- AI-powered email analysis and categorization
+- Intelligent response generation
+- Priority-based email management
+- Comprehensive analytics and insights
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ee1294a4-873f-4867-8e4a-a76266388c0f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Project:** EmailAce AI - AI-Powered Communication Assistant
