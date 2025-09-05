@@ -245,10 +245,6 @@ This project is created for educational and demonstration purposes.
 3. Make your changes
 4. Submit a pull request
 
-## 📞 Support
-
-For questions or support, please contact the development team.
-
 ---
 
 **EmailAce AI** - Transforming customer support with AI-powered email management! 🚀
