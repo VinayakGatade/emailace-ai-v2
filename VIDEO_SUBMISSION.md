@@ -64,5 +64,4 @@ The video demonstrates:
 
 ---
 
-**Submission Date:** $(Get-Date -Format "yyyy-MM-dd")
 **Project:** EmailAce AI - AI-Powered Communication Assistant
