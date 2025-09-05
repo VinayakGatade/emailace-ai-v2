@@ -1,5 +1,9 @@
 # EmailAce AI - AI-Powered Communication Assistant
 
+## 🎬 Demo Video
+
+**Video Link:** https://drive.google.com/file/d/10Rz7zh6dnx8kpsNYb8IHKp7WFa39cmrL/view?usp=sharing
+
 ## 🚀 Project Overview
 
 EmailAce AI is a comprehensive AI-powered email management system designed to intelligently handle customer support emails. It automatically analyzes incoming emails, prioritizes them based on urgency, generates context-aware responses using RAG (Retrieval-Augmented Generation), and provides a user-friendly dashboard for email management.
